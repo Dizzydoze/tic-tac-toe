@@ -1,0 +1,19 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the game takes up the full height of the viewport */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.square {
+    display: inline-block; /* Ensure the button behaves like a block element without extra spacing */
+    vertical-align: top; /* Align buttons to the top to prevent vertical shifting */
+    padding: 0; /* Remove default padding to eliminate extra space */
+    margin: 0; /* Remove default margin to eliminate extra space */
+    height: 10vh;
+    width: 10vh;
+}
+
+
